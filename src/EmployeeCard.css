@@ -1,0 +1,43 @@
+
+.employee-card {
+    background-color: #1c2237;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: white;
+    padding: 20px;
+    border: 1px solid #2a3754;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    text-align: center;
+  }
+  
+  .employee-info {
+    padding: 15px;
+  }
+  
+  .employee-info h3 {
+    margin-top: 0;
+    font-size: 1.2rem;
+  }
+  
+  .employee-info p {
+    margin: 5px 0;
+    font-size: 1rem;
+  }
+  
+  .employee-image {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: auto;
+  }
+  
+  .employee-image img {
+    width: 75%;
+    max-height: 200px;
+    object-fit: contain;
+    background-color: #f0f0f0;
+    border-radius: 4px;
+  }
